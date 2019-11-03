@@ -1,0 +1,30 @@
+{
+  "name": "gassenschach",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "docker": "docker build ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horrz/gassenschach.git"
+  },
+  "keywords": [
+    "chess",
+    "go",
+    "blog"
+  ],
+  "author": "Martin Horatschek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Horrz/gassenschach/issues"
+  },
+  "homepage": "https://github.com/Horrz/gassenschach#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.6",
+    "path": "^0.12.7"
+  }
+}
